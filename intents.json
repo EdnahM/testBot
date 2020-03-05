@@ -1,0 +1,89 @@
+{"intents": [
+    {
+        "tag":"greetings",
+        "patterns":["Hey","Hello","Watsup","Hi","Sasa","Niaje","Anyone"],
+        "responses":["Hello too, Quabot is here:","Hi,how may I help you?","Hey,There is someone here,"],
+        "context": []
+
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["Goodbye","Nice having You","See You","Nice Time","Bye","It was a pleasure"],
+        "responses":["Pleasure all mine!Bye.","Goodbye,Hoping to see you later","Blessed Time","Bye"],
+        "context":[]
+
+    },
+    {
+        "tag":"Unwell",
+        "patterns":["I feel sick","I am unwell","I feel bad","Am not good","I need some assistance","I need your help"],
+        "responses":["Kindly How are you feeling?","Please explain yourself?How you are feeling?","Am here for your assistance,please wxplain how you feel?"],
+        "context": []
+    },
+    {
+        "tag":"age_gender",
+        "patterns":["1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30","Female","Male"],
+        "responses":["Okay,please explain what you are feeling","ThankYou,How are you feeling?","Thanks, what do you need me to do for you Kindly"],
+        "context": []
+    },
+    {
+        "tag":"disease1",
+        "patterns":["I have some cold","having general weakness","ache in the joints","have some back pains"],
+        "responses":["Do you diarrhea?","Are you constipating?","is your head aching or heavy?"],
+        "context":[]
+
+    },
+    {
+        "tag":"thanks",
+        "patterns":["Thanks","Thankyou","Asanti","Awesome,Thanks","Thanks for heping me","That's Helpfull"],
+        "responses":["Happy to Help!","Anytime","My pleasure"],
+        "context":[]
+
+    },
+    {
+        "tag":"Satisfaction",
+        "patterns":["Ok","Okay","Yes,lets start","Tell me","PLease make me feel better","Fine,Lets start"],
+        "responses":["Okay,Please tell me Your Name,Age,Gender","Lets Begin by you telling me Your Name,Age,Gender","What is your name,Age and Gender"],
+        "context": []
+    },
+    {
+        "tag":"diarrhoea",
+        "patterns":["I diarrhea","I am constipating","My head is a bit heavy and aching"],
+        "responses":["Do you have back pains?","Are your joints aching"],
+        "context":[]
+
+    },
+    {
+        "tag":"fever",
+        "patterns":["coughing","sneezing","Chest pains","Mucus flowing","Headeache"],
+        "responses":["How ng have yu been sick ?","are ther ther symptms"],
+        "context":[]
+
+    },
+    {
+        "tag":"allergies",
+        "patterns":["Watery Red swollen eyes","sneezing","itching of the nose","eyes or roof of the mouth","Running stuff nose"],
+        "responses":["You may be having Allergy rhintis or the hay fever","You have some hay fever you should go for some bit of checkup"],
+        "context": []
+    },
+    {
+        "tag":"empty",
+        "patterns":[],
+        "responses":["Sorry,I didn't get you please come again","Please,pardon I didn't get you"],
+        "context": []
+    },
+    {
+        "tag":"general",
+        "patterns":["What can you do for me?","How are you to assist me","Can I trust you"],
+        "responses":["Yes ,Am here to answer any of your struggles in the Health sector","Trust me,I am going to make you feel better by the end of the session"],
+        "context": []
+    },
+    {
+        "tag":"advisory",
+        "patterns":["what is Obessity","What can I do to reduce weight","What are the effects of obessity"],
+        "responses":["Obessity is the excess gain of weight where the Body mass index is not accordingly with your height","You should start by cutting of curb intakes to be  able to control your weights"],
+        "context": []
+    }
+]
+}
+
+
